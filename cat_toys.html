@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitter: Cat_Toys</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="kitter_logo1.PNG" type="image/png">
+
+</head>
+<body>
+
+    <header class="header" data-header>
+    <div class="container">
+
+      <button class="nav-toggle-btn" aria-label="toggle manu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true" class="menu-icon"></ion-icon>
+        <ion-icon name="close-outline" aria-label="true" class="close-icon"></ion-icon>
+      </button>
+
+      <a href="#" class="logo"></a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link></a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link></a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link></a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link></a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link></a>
+          </li>
+
+        </ul>
+
+        <a href="#" class="navbar-action-btn">Log In</a>
+      </nav>
+
+      <div class="header-actions">
+
+        <button class="action-btn" aria-label="Search">
+          <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <div class="cart-wrapper">
+          <button class="action-btn" aria-label="cart" id="cartToggle">
+            <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+            <span class="btn-badge" id="cartCount">0</span>
+          </button>
+
+          <div class="cart-dropdown hidden" id="cartDropdown">
+            <h3>Your Cart</h3>
+            <ul id="cartItemsDropdown"></ul>
+            <p id="cartTotalDropdown">Total: ₹0.00</p>
+            <button id="checkoutBtnDropdown">Checkout</button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </header>
+
+
+          <section class="section product" id="shop" aria-label="product">
+        <div class="container">
+
+          <h2 class="h2 section-title">
+            <span class="span">Cat</span> Toys
+          </h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="assets/toys_images/img_1.webp" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover default">
+                  <img src="assets/toys_images/img_1.webp" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-half" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(342+)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Petmaker Cat Activity Center-Foldable play area for cats</a>
+                  </h3>
+
+                  <data class="card-price" value="2500">₹2500.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="assets/toys_images/img_2.webp" width="360" height="360" loading="lazy"
+                    alt="Purus consequat congue sit" class="img-cover default">
+                  <img src="assets/toys_images/img_2.webp" width="360" height="360" loading="lazy"
+                    alt="Purus consequat congue sit" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(151+)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">XSOURCE Wooden Cat Wall Bridge</a>
+                  </h3>
+
+                  <data class="card-price" value="2999">₹2999.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="assets/toys_images/img_3.webp" width="360" height="360" loading="lazy"
+                    alt="Morbi vel arcu scelerisque" class="img-cover default">
+                  <img src="assets/toys_images/img_3.webp" width="360" height="360" loading="lazy"
+                    alt="Morbi vel arcu scelerisque" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-half" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(687+)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Yaheetech Cat Scratching Post</a>
+                  </h3>
+
+                  <data class="card-price" value="1550">₹1550.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="assets/toys_images/img_4.webp" width="360" height="360" loading="lazy"
+                    alt="Morbi vel arcu scelerisque" class="img-cover default">
+                  <img src="assets/toys_images/img_4.webp" width="360" height="360" loading="lazy"
+                    alt="Morbi vel arcu scelerisque" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-half" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(653+)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Enakshi Noiseless Cat Running Wheel </a>
+                  </h3>
+                  <data class="card-price" value="2490">₹2490.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+                        <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="assets/toys_images/img_5.webp" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover default">
+                  <img src="assets/toys_images/img_5.webp" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-half" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(245+)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Tower Of Track Cat Play Toy</a>
+                  </h3>
+
+                  <data class="card-price" value="500">₹500.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+                        <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="assets/toys_images/img_6.webp" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover default">
+                  <img src="assets/toys_images/img_6.webp" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-half" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(479+)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Woofy Catch The Mouse Motion Cat Toy</a>
+                  </h3>
+
+                  <data class="card-price" value="600">₹600.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+                        <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="assets/toys_images/img_7.webp" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover default">
+                  <img src="assets/toys_images/img_7.webp" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-half" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(999+)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">QPets Premium Cat Toy Set Of 5</a>
+                  </h3>
+
+                  <data class="card-price" value="1850">₹1850.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="assets/toys_images/img_8.webp" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover default">
+                  <img src="assets/toys_images/img_8.webp" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(764+)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title"> K-Berho Cat Toys </a>
+                  </h3>
+
+                  <data class="card-price" value="350">₹350.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="assets/toys_images/img_9.jpeg" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover default">
+                  <img src="assets/toys_images/img_9.jpeg" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(590+)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Woofy Catch The Mouse Motion Cat Toy</a>
+                  </h3>
+
+                  <data class="card-price" value="450">₹450.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="assets/toys_images/img_10.jfif" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover default">
+                  <img src="assets/toys_images/img_10.jfif" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(645+)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Pet Wireless Changing Mechanism Mouse Toy</a>
+                  </h3>
+
+                  <data class="card-price" value="999">₹999.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="assets/toys_images/img_11.jfif" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover default">
+                  <img src="assets/toys_images/img_11.jfif" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-half" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(560+)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Smart Cat Peek-a-Prize Toy Box</a>
+                  </h3>
+
+                  <data class="card-price" value="650">₹650.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="assets/toys_images/img_12.jfif" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover default">
+                  <img src="assets/toys_images/img_12.jfif" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-half" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(230+)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title"> Interactive Cat Toy PetSafe Slimcat</a>
+                  </h3>
+
+                  <data class="card-price" value="200">₹200.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="assets/toys_images/img_13.webp" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover default">
+                  <img src="assets/toys_images/img_13.webp" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-half" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(1040+)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title"> Cat Scratching post With Spring Plush Ball</a>
+                  </h3>
+
+                  <data class="card-price" value="1000">₹1000.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="assets/toys_images/img_14.webp" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover default">
+                  <img src="assets/toys_images/img_14.webp" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(240+)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title"> Treat Puzzle For Cat</a>
+                  </h3>
+
+                  <data class="card-price" value="350">₹350.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+                        <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="assets/toys_images/img_15.webp" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover default">
+                  <img src="assets/toys_images/img_15.webp" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(590+)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">WiseWater 360 Automatic Rotating at Laser Toy</a>
+                  </h3>
+
+                  <data class="card-price" value="1999">₹1999.00</data>
+
+                </div>
+
+              </div>
+            </li>
+                        <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="assets/toys_images/img_16.webp" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover default">
+                  <img src="assets/toys_images/img_16.webp" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-half" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(400+)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">HomeRun Smart Electric Cat Toy</a>
+                  </h3>
+
+                  <data class="card-price" value="950">₹950.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+
+          </ul>
+
+        </div>
+      </section>
+
+        <!-- Checkout Form Modal -->
+  <div id="checkoutFormModal" class="checkout-modal hidden">
+    <div class="checkout-modal-content">
+      <span class="close-checkout-modal">&times;</span>
+      <h2>Checkout Information</h2>
+      <form id="checkoutForm">
+        <div class="form-group">
+          <label for="fullName">Full Name:</label>
+          <input type="text" id="fullName" name="fullName" required>
+        </div>
+        <div class="form-group">
+          <label for="address">Address:</label>
+          <input type="text" id="address" name="address" required>
+        </div>
+        <div class="form-group">
+          <label for="phoneNumber">Phone Number:</label>
+          <input type="tel" id="phoneNumber" name="phoneNumber" required>
+        </div>
+        <button type="submit" id="submitCheckoutForm">Confirm Order</button>
+      </form>
+    </div>
+  </div>
+
+
+        <!--
+    - custom js link
+  -->
+  <script src="assets/js/script.js" defer></script>
+    <script src="backend/kitter/package-lock.json" defer></script>
+      <script src="backend/kitter/package.json" defer></script>
+        <script src="backend/kitter/server.js" defer></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+    
+</body>
+</html>

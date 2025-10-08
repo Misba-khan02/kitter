@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitter: Dog_Toys</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="kitter_logo1.PNG" type="image/png">
+
+</head>
+<body>
+
+    <header class="header" data-header>
+    <div class="container">
+
+      <button class="nav-toggle-btn" aria-label="toggle manu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true" class="menu-icon"></ion-icon>
+        <ion-icon name="close-outline" aria-label="true" class="close-icon"></ion-icon>
+      </button>
+
+      <a href="#" class="logo"></a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link></a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link></a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link></a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link></a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link></a>
+          </li>
+
+        </ul>
+
+        <a href="#" class="navbar-action-btn">Log In</a>
+      </nav>
+
+      <div class="header-actions">
+
+        <button class="action-btn" aria-label="Search">
+          <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <div class="cart-wrapper">
+          <button class="action-btn" aria-label="cart" id="cartToggle">
+            <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+            <span class="btn-badge" id="cartCount">0</span>
+          </button>
+
+          <div class="cart-dropdown hidden" id="cartDropdown">
+            <h3>Your Cart</h3>
+            <ul id="cartItemsDropdown"></ul>
+            <p id="cartTotalDropdown">Total: ₹0.00</p>
+            <button id="checkoutBtnDropdown">Checkout</button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </header>
+
+
+          <section class="section product" id="shop" aria-label="product">
+        <div class="container">
+
+          <h2 class="h2 section-title">
+            <span class="span">Dog</span> Toys
+          </h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="assets/toys_images/img_17.webp" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover default">
+                  <img src="assets/toys_images/img_17.webp" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(873+)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Puppy Chew Toys/Teething Toys</a>
+                  </h3>
+
+                  <data class="card-price" value="750">₹750.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="assets/toys_images/img_18.jpeg" width="360" height="360" loading="lazy"
+                    alt="Purus consequat congue sit" class="img-cover default">
+                  <img src="assets/toys_images/img_18.jpeg" width="360" height="360" loading="lazy"
+                    alt="Purus consequat congue sit" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(151+)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Fuufome dog chew toy, specifically a durable, crocodile-shaped toy designed for aggressive chewers</a>
+                  </h3>
+
+                  <data class="card-price" value="450">₹450.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="assets/toys_images/img_19.webp" width="360" height="360" loading="lazy"
+                    alt="Morbi vel arcu scelerisque" class="img-cover default">
+                  <img src="assets/toys_images/img_19.webp" width="360" height="360" loading="lazy"
+                    alt="Morbi vel arcu scelerisque" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-half" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(569+)</span>
+                  </div>
+                  <h3 class="h3">
+                    <a href="#" class="card-title">snuffle ball, an interactive dog toy designed for mental stimulation and slow feeding</a>
+                  </h3>
+
+                  <data class="card-price" value="330">₹330.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="assets/toys_images/img_20.webp" width="360" height="360" loading="lazy"
+                    alt="Morbi vel arcu scelerisque" class="img-cover default">
+                  <img src="assets/toys_images/img_20.webp" width="360" height="360" loading="lazy"
+                    alt="Morbi vel arcu scelerisque" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-half" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(378+)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Giociv Interactive Dog Toy, a motion-activated and squeaky dog ball</a>
+                  </h3>
+
+                  <data class="card-price" value="460">₹460.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+                        <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="assets/toys_images/img_21.jpeg" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover default">
+                  <img src="assets/toys_images/img_21.jpeg" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-half" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(471+)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Dog Rope And Rubber Toy Combo</a>
+                  </h3>
+
+                  <data class="card-price" value="576">₹576.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+                        <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="assets/toys_images/img_22.webp" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover default">
+                  <img src="assets/toys_images/img_22.webp" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(669+)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Light Up Dog Ball</a>
+                  </h3>
+
+                  <data class="card-price" value="340">₹340.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+                        <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="assets/toys_images/img_23.webp" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover default">
+                  <img src="assets/toys_images/img_23.webp" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-half" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(699+)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Mellow Dog Calming Duck Toy</a>
+                  </h3>
+
+                  <data class="card-price" value="389">₹389.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="assets/toys_images/img_24.webp" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover default">
+                  <img src="assets/toys_images/img_24.webp" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-half" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(650+)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">PrimePets 4 Pack Dog Treat Ball Interactive Food Dispensing Puppy Puzzle Toy</a>
+                  </h3>
+
+                  <data class="card-price" value="1200">₹1200.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="assets/toys_images/img_25.webp" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover default">
+                  <img src="assets/toys_images/img_25.webp" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-half" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(760+)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Corn-shaped dog chew toy/toothbrush</a>
+                  </h3>
+
+                  <data class="card-price" value="500">₹500.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="assets/toys_images/img_26.webp" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover default">
+                  <img src="assets/toys_images/img_26.webp" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(680+)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">squeaky dog toy</a>
+                  </h3>
+
+                  <data class="card-price" value="800">₹800.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="assets/toys_images/img_27.webp" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover default">
+                  <img src="assets/toys_images/img_27.webp" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-half" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(543+)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Outward Hound Paw Hide Mini Interactive Dog Toy Puzzle</a>
+                  </h3>
+
+                  <data class="card-price" value="433">₹433.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="assets/toys_images/img_28.webp" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover default">
+                  <img src="assets/toys_images/img_28.webp" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(450+)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Trixie Vinyl Dumbbell Squeaky Dog Toys set of 3</a>
+                  </h3>
+
+                  <data class="card-price" value="299">₹299.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="assets/toys_images/img_29.jfif" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover default">
+                  <img src="assets/toys_images/img_29.jfif" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-half" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(740+)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">dog puzzle toy, designed to provide mental stimulation and entertainment for dogs</a>
+                  </h3>
+
+                  <data class="card-price" value="300">₹300.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="assets/toys_images/img_30.jfif" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover default">
+                  <img src="assets/toys_images/img_30.jfif" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(778+)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">dog puzzle toy, likely designed for mental stimulation and treat dispensing</a>
+                  </h3>
+
+                  <data class="card-price" value="879">₹879.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+                        <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="assets/toys_images/img_31.jfif" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover default">
+                  <img src="assets/toys_images/img_31.jfif" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-half" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(456+)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">dog chew toy, likely a plush or rope toy</a>
+                  </h3>
+
+                  <data class="card-price" value="400">₹400.00</data>
+
+                </div>
+
+              </div>
+            </li>
+                        <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="assets/toys_images/img_32.jpeg" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover default">
+                  <img src="assets/toys_images/img_32.jpeg" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-half" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(765+)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">squeaky rubber chicken toy</a>
+                  </h3>
+
+                  <data class="card-price" value="299">₹299.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+
+          </ul>
+
+        </div>
+      </section>
+
+        <!-- Checkout Form Modal -->
+  <div id="checkoutFormModal" class="checkout-modal hidden">
+    <div class="checkout-modal-content">
+      <span class="close-checkout-modal">&times;</span>
+      <h2>Checkout Information</h2>
+      <form id="checkoutForm">
+        <div class="form-group">
+          <label for="fullName">Full Name:</label>
+          <input type="text" id="fullName" name="fullName" required>
+        </div>
+        <div class="form-group">
+          <label for="address">Address:</label>
+          <input type="text" id="address" name="address" required>
+        </div>
+        <div class="form-group">
+          <label for="phoneNumber">Phone Number:</label>
+          <input type="tel" id="phoneNumber" name="phoneNumber" required>
+        </div>
+        <button type="submit" id="submitCheckoutForm">Confirm Order</button>
+      </form>
+    </div>
+  </div>
+
+
+        <!--
+    - custom js link
+  -->
+  <script src="assets/js/script.js" defer></script>
+    <script src="backend/kitter/package-lock.json" defer></script>
+      <script src="backend/kitter/package.json" defer></script>
+        <script src="backend/kitter/server.js" defer></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+    
+</body>
+</html>

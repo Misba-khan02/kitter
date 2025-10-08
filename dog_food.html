@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitter: Dog_Food</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="kitter_logo1.PNG" type="image/png">
+
+</head>
+<body>
+
+    <header class="header" data-header>
+    <div class="container">
+
+      <button class="nav-toggle-btn" aria-label="toggle manu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true" class="menu-icon"></ion-icon>
+        <ion-icon name="close-outline" aria-label="true" class="close-icon"></ion-icon>
+      </button>
+
+      <a href="#" class="logo"></a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link></a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link></a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link></a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link></a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link></a>
+          </li>
+
+        </ul>
+
+        <a href="#" class="navbar-action-btn">Log In</a>
+      </nav>
+
+      <div class="header-actions">
+
+        <button class="action-btn" aria-label="Search">
+          <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <div class="cart-wrapper">
+          <button class="action-btn" aria-label="cart" id="cartToggle">
+            <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+            <span class="btn-badge" id="cartCount">0</span>
+          </button>
+
+          <div class="cart-dropdown hidden" id="cartDropdown">
+            <h3>Your Cart</h3>
+            <ul id="cartItemsDropdown"></ul>
+            <p id="cartTotalDropdown">Total: ₹0.00</p>
+            <button id="checkoutBtnDropdown">Checkout</button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </header>
+
+
+          <section class="section product" id="shop" aria-label="product">
+        <div class="container">
+
+          <h2 class="h2 section-title">
+            <span class="span">Dog</span> Food
+          </h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="assets/food_images/img_17.jpeg" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover default">
+                  <img src="assets/food_images/img_17.jpeg" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(453+)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Hill's Pet Nutrition Hills Science Diet Adult Small Bites Chicken & Barley Dry</a>
+                  </h3>
+
+                  <data class="card-price" value="1170">₹1170.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="assets/food_images/img_18.webp" width="360" height="360" loading="lazy"
+                    alt="Purus consequat congue sit" class="img-cover default">
+                  <img src="assets/food_images/img_18.webp" width="360" height="360" loading="lazy"
+                    alt="Purus consequat congue sit" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(535+)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Pedigree Wet Dog Food- Chicken & Liver Chunks In Gravy, For Adult Dogs, 70 g Pouch</a>
+                  </h3>
+
+                  <data class="card-price" value="1380">₹1380.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="assets/food_images/img_19.webp" width="360" height="360" loading="lazy"
+                    alt="Morbi vel arcu scelerisque" class="img-cover default">
+                  <img src="assets/food_images/img_19.webp" width="360" height="360" loading="lazy"
+                    alt="Morbi vel arcu scelerisque" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-half" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(787+)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Drools Adult Wet Dog Food, Real Chicken and Chicken Liver Chunks in Gravy, 24 Pouches (24 x 150g)</a>
+                  </h3>
+
+                  <data class="card-price" value="845">₹845.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="assets/food_images/img_20.webp" width="360" height="360" loading="lazy"
+                    alt="Morbi vel arcu scelerisque" class="img-cover default">
+                  <img src="assets/food_images/img_20.webp" width="360" height="360" loading="lazy"
+                    alt="Morbi vel arcu scelerisque" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-half" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(978+)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Zippy Starter Dry  Dog Food – for Pregnant Mother & Weaning Puppy</a>
+                  </h3>
+
+                  <data class="card-price" value="2790">₹2790.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+                        <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="assets/food_images/img_21.webp" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover default">
+                  <img src="assets/food_images/img_21.webp" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(1241+)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Sara's Wholesome Classic Chicken And Brown Rice Dog Food</a>
+                  </h3>
+
+                  <data class="card-price" value="99">₹99.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+                        <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="assets/food_images/img_22.webp" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover default">
+                  <img src="assets/food_images/img_22.webp" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(879+)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Drools Adult Chicken and Egg Dry Dog Food</a>
+                  </h3>
+
+                  <data class="card-price" value="226">₹226.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+                        <li>
+              <div class="product-card">
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="assets/food_images/img_23.webp" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover default">
+                  <img src="assets/food_images/img_23.webp" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-half" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(799+)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Pedigree Chicken & Vegetables Adult Dog Dry Food</a>
+                  </h3>
+
+                  <data class="card-price" value="779">₹779.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="assets/food_images/img_24.webp" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover default">
+                  <img src="assets/food_images/img_24.webp" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-half" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(1140+)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Royal Canin Medium Adult Dry Dog Food - 4 Kg </a>
+                  </h3>
+
+                  <data class="card-price" value="2000">₹2000.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="assets/food_images/img_25.webp" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover default">
+                  <img src="assets/food_images/img_25.webp" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(540+)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Himalaya Healthy Pet Food Puppy - Chicken & Milk 1.2 kg</a>
+                  </h3>
+
+                  <data class="card-price" value="387">₹387.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="assets/food_images/img_26.webp" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover default">
+                  <img src="assets/food_images/img_26.webp" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(560+)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Purepet Chicken & Vegetable Adult Dog Dry Food.</a>
+                  </h3>
+
+                  <data class="card-price" value="399">₹399.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="assets/food_images/img_27.jpeg" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover default">
+                  <img src="assets/food_images/img_27.jpeg" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-half" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(670+)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Retriever High-Protein Adult Performance Beef & Chicken Dry Dog Food.</a>
+                  </h3>
+
+                  <data class="card-price" value="3350">₹3350.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="assets/food_images/img_28.jpeg" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover default">
+                  <img src="assets/food_images/img_28.jpeg" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-half" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(640+)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Hypro Premium Puppy Grain Free Dry Dog Food with Turkey & Lamb</a>
+                  </h3>
+
+                  <data class="card-price" value="1950">₹1950.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="assets/food_images/img_29.jpeg" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover default">
+                  <img src="assets/food_images/img_29.jpeg" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(340+)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Amazon Basics Adult Dog Food, specifically the Chicken & Rice formula</a>
+                  </h3>
+
+                  <data class="card-price" value="1148">₹1148.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="assets/food_images/img_30.jpeg" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover default">
+                  <img src="assets/food_images/img_30.jpeg" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-half" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(340+)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Kibbles 'n Bits Original Savory Beef & Chicken Flavors Dry Dog Food</a>
+                  </h3>
+
+                  <data class="card-price" value="3450">₹3450.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+                        <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="assets/food_images/img_31.jpeg" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover default">
+                  <img src="assets/food_images/img_31.jpeg" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(670+)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Kirkland Signature Nature's Domain Beef & Sweet Potato Formula Food for Dogs</a>
+                  </h3>
+
+                  <data class="card-price" value="1999">₹1999.00</data>
+
+                </div>
+
+              </div>
+            </li>
+                        <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="assets/food_images/img_32.webp" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover default">
+                  <img src="assets/food_images/img_32.webp" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-half" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(740+)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Harringtons Superfoods Adult Chicken with Vegetables dry dog food</a>
+                  </h3>
+
+                  <data class="card-price" value="722">₹722.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+
+          </ul>
+
+        </div>
+      </section>
+
+        <!-- Checkout Form Modal -->
+  <div id="checkoutFormModal" class="checkout-modal hidden">
+    <div class="checkout-modal-content">
+      <span class="close-checkout-modal">&times;</span>
+      <h2>Checkout Information</h2>
+      <form id="checkoutForm">
+        <div class="form-group">
+          <label for="fullName">Full Name:</label>
+          <input type="text" id="fullName" name="fullName" required>
+        </div>
+        <div class="form-group">
+          <label for="address">Address:</label>
+          <input type="text" id="address" name="address" required>
+        </div>
+        <div class="form-group">
+          <label for="phoneNumber">Phone Number:</label>
+          <input type="tel" id="phoneNumber" name="phoneNumber" required>
+        </div>
+        <button type="submit" id="submitCheckoutForm">Confirm Order</button>
+      </form>
+    </div>
+  </div>
+
+
+        <!--
+    - custom js link
+  -->
+  <script src="assets/js/script.js" defer></script>
+    <script src="backend/kitter/package-lock.json" defer></script>
+      <script src="backend/kitter/package.json" defer></script>
+        <script src="backend/kitter/server.js" defer></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+    
+</body>
+</html>
